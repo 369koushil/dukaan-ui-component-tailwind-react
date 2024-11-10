@@ -6,7 +6,7 @@ import Header from "./Header";
 function Sidebar({ state, change }) {
   return (
     <div
-      className={`bg-indigo-950 w-52 flex px-4 ${
+      className={`bg-indigo-900 w-52 flex px-4 ${
         state === 1
           ? "translate-x-0 z-50 shadow-lg"
           : "max-md:-translate-x-full"

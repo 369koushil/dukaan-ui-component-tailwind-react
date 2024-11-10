@@ -4,7 +4,7 @@ function Card({ amnt, orders, title, special, time }) {
   return (
     <div
       className={`flex  flex-col rounded-md  w-96  ${
-        special ? "bg-blue-700 text-white" : "bg-slate-200 h-36 shadow-md"
+        special ? "bg-blue-600 text-white" : "bg-slate-200 h-36 shadow-md"
       } `}
     >
       <div className="flex justify-start p-4  gap-x-2">
@@ -51,7 +51,7 @@ function Card({ amnt, orders, title, special, time }) {
         ) : null}
       </div>
       {special ? (
-        <div className="bg-blue-900 rounded-md flex justify-between text-white p-4">
+        <div className="bg-blue-800 rounded-md flex justify-between text-white p-4">
           <div>Next Payout date</div>
           <div>{time}</div>
         </div>

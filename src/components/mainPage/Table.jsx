@@ -2,7 +2,7 @@ import React from "react";
 
 function Table() {
   return (
-    <table>
+    <table className="max-md:overflow-x-scroll">
       <thead>
         <tr>
           <th scope="col" class="px-16 py-3 font-medium">
